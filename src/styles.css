@@ -1,0 +1,165 @@
+body {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.SonjaCodes-logo {
+  align-items: center;
+  display: block;
+  height: 20vmin;
+  margin: 0 auto;
+}
+
+.container {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 0 40px 12px rgba(222, 218, 233, 0.608);
+  display: block;
+  min-width: 370px;
+  max-width: 1220px;
+  padding: 50px;
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 50px;
+}
+
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+
+.middle {
+  align-items: center;
+}
+
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-2-columns img {
+  width: 100%;
+}
+
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3-columns img {
+  max-width: 60%;
+}
+
+.grid-3-columns .map {
+  max-width: 40%;
+}
+
+.instagram-media {
+  box-shadow: 0 0 1px 0 rgba(0, 0, 0, 0.5), 0 1px 10px 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.grid-3-columns-with-first-narrow {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.card {
+  background-color: white;
+  margin: 30px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  display: flex;
+}
+
+.card-body {
+  padding: 30px;
+}
+
+.source {
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.text-center {
+  text-align: center;
+}
+
+main h2 {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  line-height: 1.5;
+  margin: 0;
+  opacity: 0.3;
+  text-transform: uppercase;
+}
+
+main h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0;
+}
+
+
+main p {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+
+main a {
+  color: black;
+}
+
+footer {
+  text-align: center;
+  color: #F53B9B;
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+
+footer a {
+  color: #F53B9B;
+}
+
+@media (max-width: 960px) {
+  header h1 {
+    font-size: 48px;
+  }
+
+  header h2 {
+    font-size: 20px;
+  }
+
+  header h3 {
+    font-size: 16px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    grid-gap: 32px;
+  }
+
+  section {
+    padding: 10px;
+  }
+
+  card {
+    margin: 0;
+  }
+}
