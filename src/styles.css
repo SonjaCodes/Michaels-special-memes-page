@@ -91,13 +91,14 @@ main a {
 
 footer {
   text-align: center;
-  color: #F53B9B;
+  color: #c1c1c1;
   font-size: 14px;
   margin-top: 30px;
 }
 
 footer a {
   color: #F53B9B;
+  text-decoration: underline;
 }
 
 @media (max-width: 960px) {
