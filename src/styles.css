@@ -33,7 +33,8 @@ h3 {
 
 .grid {
   display: grid;
-  grid-gap: 64px;
+  column-gap: 44px;
+  row-gap: 0;
 }
 
 .grid-3-columns {
